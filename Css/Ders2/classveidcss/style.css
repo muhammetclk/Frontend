@@ -1,0 +1,24 @@
+/* class ve id kullanimi*/
+/*  class =>  .text-red{} seklinde tanimlaniyor
+    id=>   #id-bilgisi{} seklinde tanimlaniyor.
+
+*/
+#first-article{
+    font-size:40px;
+}
+p{font-size:20px ;}/* bu sekilde ne olursa olsun paragraflarimiz 20 px de baslar.(ozel olarak degistirdiklerimiz haric)*/
+h1,h2,h3,h4,h5,h6 {/*bu sekilde ne olursa olsun baslik etiketlerimizin rengi bu olur. (ozel olarak degistirdiklerimiz haric)*/
+    color:blueviolet;
+}
+.text-red {
+    color:red;
+}
+.fs-14 { 
+    font-size: 14px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
