@@ -1,0 +1,67 @@
+.container {
+
+    
+    margin-left:auto;
+    margin-right:auto;
+    
+   
+}
+
+
+.input {
+    border-radius: 10px;/*kutularin kenarlarini yuvarlak yapzar.*/
+    margin-top:40px ;
+    border-color: rgb(219, 227, 230);
+    border-style:groove;
+}
+.button {
+    margin-top:40px ;
+    background-color: antiquewhite;
+    border-style: hidden;
+    font-size:15px;
+    padding: 10px;
+}
+.div {
+    float:left;
+    text-align: right;
+    margin-left: 10px;
+}
+.content {
+    
+    
+    
+   
+    text-align: center;
+    
+}
+
+.card {
+    width: 8.34%;
+    float: left;
+    padding: 5px;/*5 px verince sagdan soldan iticegi icin toplam 10px */
+    
+    height: 70px;
+    
+    background-color: rgb(218, 252, 252);
+    
+
+}
+
+h4 {
+
+    padding: 10px;
+    margin-bottom: 0%;
+    background-color: rgb(218, 252, 252); 
+    text-align:left;
+    color: dimgrey;
+}
+a{
+    color: dimgrey; 
+}
+
+
+.alt{ /* bu class divi en alta yaslamak icin kullandik.*/
+       position:absolute;     bottom:0;          height:100px;     width:100%;  
+}
+
+
