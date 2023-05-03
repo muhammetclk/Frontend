@@ -1,0 +1,37 @@
+.box {
+
+   
+    width: 300px; /*kutunun genisligi 300 px*/
+
+    height: 300px; /* kutunun yuksekligi 300 px */
+
+    padding: 10px; /*kutunun icindeki boslugu 10 px yaptik*/
+
+    margin-top: 10px; /*iki kutu arasindaki boslugu 10 px yaptik.sadece margin yazarsak yon belirtmedigimiz icin tum yerlerden 10 px bosluk yapar.*/
+
+    float: left;/*kutularin yan yana gelebilmesi icin kullanabilecegimiz ozelliklerden*/
+
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+.clear {
+    clear: both;/* bulundugu yerin sagini ve solunu temizler*/
+}/*float left ozelligini silmis oluruz boylece kutunun yanina birsey gelmez*/
+
+
+.bg-red {
+    background-color: red;
+
+}
+
+.bg-green {
+
+    background-color: green;
+}

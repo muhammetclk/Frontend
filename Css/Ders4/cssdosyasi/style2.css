@@ -1,0 +1,46 @@
+/* burda bir container yapisi olusturucaz ve 1000px olucak.200px alani sol tarafa 800px de sag tarafa veriyoruz.*/
+.container {
+
+    width: 1000px;
+    margin-left: auto;/* otomatik olarak sagdan ve soldan iter ve ortada hizalar.*/
+    margin-right: auto;
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+    
+}
+
+.content {
+
+    width: 800px;
+    float:left;
+}
+
+.card {
+    width: 31%;
+    float: left;
+    padding: 5px;/*5 px verince sagdan soldan iticegi icin toplam 10px */
+    margin-right: 3px;/* sagdan 3 iter.*/
+
+    background-color: aqua;
+    border-radius: 10px;/*kutularin kenarlarini yuvarlak yapzar.*/
+
+}
+
+
+.bg-red {
+    background-color: red;
+
+}
+
+.bg-green {
+
+    background-color: green;
+}
+
+.bg-yellow {
+
+    background-color: yellow;
+}
