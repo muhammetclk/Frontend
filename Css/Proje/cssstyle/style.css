@@ -1,0 +1,58 @@
+
+
+  h1{
+    color:red;
+  }
+  a{
+    display: inline;
+    background-color: rgb(197, 197, 214);
+    color: grey;
+  }
+  table, th, td,tr {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: left;
+  }
+  body{
+    background-color: beige;
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 100vh;
+  }
+  #img {
+    padding: 2px;
+    margin: 2px;
+
+  }
+ 
+  .cerceve{
+    width: 50%;
+    overflow: hidden;
+    border: 5px solid thistle;
+
+  }
+  .galeri{
+    position: relative;
+    width: 200%;/* iki resim oldugu ıcın 200 yaptık*/
+    left:0;
+    animation: 5s slayt infinite;/*infinite devamlı tekrar etsın anlamına gelıyor 5 sanıyede bir */
+  }
+  .galeri img{
+    width: 50%;
+    float: left;/*resimleri yanyana alıyor*/
+    
+  }
+  @keyframes slayt {
+    0%{left:0%;}
+    20%{left:0%;}
+    25%{left:0%;}
+    45%{left:-100%;}
+    50%{left:-100%;}
+    90%{left:-100%;}
+  }
