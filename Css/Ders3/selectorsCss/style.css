@@ -1,0 +1,36 @@
+/* css selectors */
+
+/* bu sekilde ikisini ayni anda yazarak kullaniyoruz.  */
+.color-blue.fs-20px {
+
+    color: blue;
+    font-size: 20px;
+
+}
+
+
+/* bu sekilde bosluk birakincada ic ice olanlarda kullanabiliyoruz.orn= ul icinde li yapisi*/
+.color-red .fs-30px {
+
+    color: red;
+    font-size: 30px;
+
+}
+
+
+/* ul nin iceriisndeki ilk eleman yesil renkli yazar*/
+ul>li:first-child{
+
+    color:green
+}
+/* bu sekildede yazilabilir. son elemani sari yapar.*/
+li:last-child{
+
+    color:yellow
+}
+
+/*li lerin 2. elemanini etkiler */
+li:nth-child(2){
+
+    color:blueviolet
+}
